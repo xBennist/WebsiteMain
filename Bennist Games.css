@@ -1,0 +1,38 @@
+nav {
+    background-color: #ff0000;
+    padding: 5px;
+    text-align: center;
+    font-family: cursive;
+}
+nav a {
+    display: inline-block;
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 10px;
+    font-family: cursive;
+}
+nav a:hover {
+    background-color: #ff0000;
+    color: #a00101;
+    font-family: cursive;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+h2 {
+    font-size: 36px;
+    margin: 0;
+}
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+}

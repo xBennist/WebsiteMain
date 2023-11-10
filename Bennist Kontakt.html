@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Bennist/Kontaktformular</title>
+<link rel="stylesheet" type="text/css" href="Kontakt.css">
+<form action="BennistKontakt.php" method="post"></form>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    background: #000000;
+  }
+  
+  .content {
+    max-width: 500px;
+    margin: auto;
+    background: rgb(255, 0, 0);
+    padding: 10px;
+  }
+  </style>
+  </head>
+  <body>
+  
+  <div class="content">
+  
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+ 
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  </style>
+  </head>
+  <body>
+
+
+    <div style="position:absolute;bottom: 800px;left:10pt;z-index:2;">
+      <img src="bulls_red-removebg-preview.png" width="150" height="150" alt="Salon" />
+      </div>
+
+      <div style="position:absolute;bottom: 875px;left:550pt;z-index:2;">
+      <img src="bulls_red-removebg-preview.png" width="50" height="50" alt="Salon" />
+      </div>
+
+      <div style="position:absolute;bottom: 875px;left:850pt;z-index:2;">
+        <img src="bulls_red-removebg-preview.png" width="50" height="50" alt="Salon" />
+        </div>
+
+  
+  <div class="container">
+    <div style="text-align: center;"
+  <h2><font color="red">Kontaktformular</font></h2> 
+</div>
+
+
+
+  <div class="container">
+    <div style="text-align:center">
+      <h2><font color="red">Bennist Kontakt</font></h2>
+      
+    </div>
+    
+          <form action="Formular.php">
+          <label for="fname">Vorname</label>
+          <input type="text" id="fname" required name="firstname" placeholder="Dein Vorname...">
+          <label for="lname">Nachname</label>
+          <input type="text" id="lname" required name="lastname" placeholder="Dein Nachname...">
+          <div class="w3-section">
+            <label>Email</label>
+          <input type="text" id="fname" required name="Email Adresse" placeholder="Email Adresse...">
+          <label for="country">Land</label>
+          <select id="country" name="country"> 
+            <option value="australia">Land auswählen</option>
+            <option value="australia">Österreich</option>
+            <option value="canada">Deutschland</option>
+            <option value="usa">Schweiz</option>
+            <option value="usa">andere Länder</option>
+          </select>
+          
+           
+          </div>
+          <label for="subject">Betreff</label>
+          <textarea id="subject" name="subject" placeholder="Beschreibe das Problem..." style="height:170px"></textarea>
+          <form action="BennistKontakt.php" method="POST"></form>
+          <input type="Submit" value="Abschicken">
+        </form>
+        <div style="text-align: center;">
+          <font color="black"><h2>Telefonummer: +1 12 34 56 78 90</h2></font> 
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>

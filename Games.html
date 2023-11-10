@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="styles.css">
+    <title>CSS 3D Rotating Image Gallery</title>
+
+</head>
+<body>
+    <div class="box">
+        <span style="--i:1;"><img src="valorant-logo-FAB2CA0E55-seeklogo.com.png" alt=""></span>
+        <span style="--i:2;"><img src="Gta 5.jpg" alt=""></span>
+        <span style="--i:3;"><img src="Csgo.jpg" alt=""></span>
+        <span style="--i:4;"><img src="dbd.jpg" alt=""></span>
+        <span style="--i:5;"><img src="Fifa 23.jpg" alt=""></span>
+        <span style="--i:6;"><img src="Fortnite_F_lettermark_logo.png" alt=""></span>
+        <span style="--i:7;"><img src="Raft.jpg" alt=""></span>
+        <span style="--i:8;"><img src="NMcAucyANMnYMNkz6V5vk9f5YXty2mCz.webp" alt=""></span>
+
+    </div>
+
+    <script type="text/Javascript">
+        let box = document.querySelector('.box');
+        window.onmousemove = function(e){
+            let x = e.clientX/3;
+            box.style.transform = "perspective(1000px) rotateY("+ x + "deg)"
+        }
+
+    </script>
+</body>
+</html>
